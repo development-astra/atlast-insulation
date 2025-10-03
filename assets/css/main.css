@@ -414,17 +414,16 @@ h6 {
 /* =========================================
    YOUR EXISTING HEADER STYLES - KEPT AS IS
    ========================================= */
-
 /* Base Header Styles */
 .header {
-  padding:15px 1%;
-  /* Add position fixed for sticky behavior */
+  padding: 15px 1%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  margin-top: -0.75%;
   z-index: 1000;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .header h3 {
