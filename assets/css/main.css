@@ -491,7 +491,7 @@ h6 {
 
 /* Location Badge */
 .badge.location {
-  background-color: #049ABA;
+  background-color: #0066d4;
   color: #FFF;
   padding: 8px 15px;
   font-size: 14px;
@@ -502,7 +502,7 @@ h6 {
 
 /* Promotion Badge */
 .badge.promotion {
-  background :#049ABA;
+  background :#0066d4;
   color: #FFFFFF;
   padding: 5px 12px;
   font-size: 18px;
@@ -521,7 +521,7 @@ h6 {
   /* ADDED: Prevent phone number from breaking */
   white-space: nowrap;
   line-height: 1.2;
-  color :#049ABA;
+  color :#0066d4;
 }
 
 /* =========================================
@@ -600,7 +600,7 @@ h6 {
     padding: 3px 8px;
     margin-bottom: 2px;
     /* ADDED: Change to orange background like in your image */
-    background: #049ABA;
+    background: #0066d4;
     color: #FFFFFF;    
     font-family: 'Montserrat';
   }
@@ -1506,13 +1506,13 @@ form button.btn {
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  background-color: #0C763E;
+  background-color: #0ca659;
   gap: 12px;
   align-self: stretch;
 }
 
 form button.btn:hover {
-  background-color: #0C763E;
+  background-color: #0ca659;
 }
 
 @media (max-width: 575px) {
@@ -1713,12 +1713,12 @@ form button.btn:hover {
   font-size: 18px;
   line-height: 125%;
   padding: 14px 32px;
-  background-color: #0C763E;
+  background-color: #0ca659;
 
   /* background-image: linear-gradient(to right, #2c2967, #eba126); */
   font-weight: 600;
   border-radius: 8px;
-  border: 1px solid #0C763E;
+  border: 1px solid #0ca659;
 }
 
 .why-choose-us .btn i {
@@ -1885,12 +1885,12 @@ form button.btn:hover {
 
 
 .services .service-item:hover {
-  background-image: linear-gradient(to right, #049ABA, #049ABA);
+  background-image: linear-gradient(to right, #0066d4, #0066d4);
 }
 
 .services .service-item:hover a.btn {
   background-color: #ffffff;
-  color: #049ABA;
+  color: #0066d4;
 }
 
 .services .service-item:hover .service-content h3,
@@ -1903,7 +1903,7 @@ form button.btn:hover {
 }
 
 .services .service-item:hover .service-content .icon svg path  {
-  fill: #049ABA !important;
+  fill: #0066d4 !important;
 }
 
 
@@ -1919,7 +1919,7 @@ form button.btn:hover {
 }
 
 .services .service-item .service-content .icon {
-  background-color: #049ABA;
+  background-color: #0066d4;
 }
 
 .services .service-item .service-content .icon svg {
@@ -2024,7 +2024,7 @@ form button.btn:hover {
 }
 
 .services .btn {
-  background-color: #049ABA;
+  background-color: #0066d4;
   color: #FFFF;
   font-weight: 700;
 }
@@ -2088,7 +2088,7 @@ form button.btn:hover {
   padding: 16px 40px;
   /* background-color: #16495F; */
   border:  none;
-  background-color: #0C763E;
+  background-color: #0ca659;
   font-weight: 600;
 }
 
@@ -2209,7 +2209,7 @@ form button.btn:hover {
   border-radius: 16px;
   background:
     url("#") no-repeat center center/cover,
-    linear-gradient(350deg, #020A0C 0%, #1C5D6B 100%);
+    linear-gradient(350deg, #020A0C 0%, #0066d4 100%);
   z-index: 0;
 }
 
@@ -2464,8 +2464,8 @@ form button.btn:hover {
   z-index: 1;
 }
 .contact-section form button.btn {
-  background-color: #0C763E !important;
-  border: 1px solid #0C763E !important;
+  background-color: #0ca659 !important;
+  border: 1px solid #0ca659 !important;
   padding: 16px;
   border-radius: 8px;
 }
