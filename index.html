@@ -79,18 +79,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </div>
 
         <!-- Logo (Always Visible) -->
-        <div class="d-md-none">
+        <!-- <div class="d-md-none">
           <a href="/index.html" class="logo">
-            <img src="assets/img/logo.svg" alt="Logo">
+            <img src="assets/img/enhance.svg" alt="Logo">
           </a>
-        </div>
+        </div> -->
 
         <!-- Logo for Desktop -->
-        <div class="d-none d-md-flex justify-content-center flex-grow-1">
+        <!-- <div class="d-none d-md-flex justify-content-center flex-grow-1">
           <a href="/index.html" class="logo">
-            <img src="assets/img/logo.svg"  alt="Logo">
+            <img src="assets/img/enhance.svg" alt="Logo">
           </a>
-        </div>
+        </div> -->
+
+        <!-- Mobile -->
+        <a href="/index.html" class="logo d-md-none">
+          <img
+            src="assets/img/logo/logo-mobile-1x.png"
+            srcset="
+              assets/img/logo/logo-mobile-1x.png 1x,
+              assets/img/logo/logo-mobile-2x.png 2x,
+              assets/img/logo/logo-mobile-3x.png 3x
+            "
+            alt="Atlas Insulation"
+            width="115" height="56"
+            class="logo-img"
+            decoding="async" fetchpriority="high"
+          />
+        </a>
+
+        <!-- Desktop -->
+        <a href="/index.html" class="logo d-none d-md-flex">
+          <img
+            src="assets/img/logo/logo-desktop-1x.png"
+            srcset="
+              assets/img/logo/logo-desktop-1x.png 1x,
+              assets/img/logo/logo-desktop-2x.png 2x
+            "
+            alt="Atlas Insulation"
+            width="164" height="80"
+            class="logo-img"
+            decoding="async"
+          />
+        </a>
 
         <!-- Call To Action (Always Visible) -->
         <div>

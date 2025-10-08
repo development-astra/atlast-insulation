@@ -592,6 +592,11 @@ h6 {
   /* Adjust logo size for mobile - MODIFIED */
   .logo img {
     height: 40px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   /* Promotion badge mobile sizing - MODIFIED */
@@ -628,6 +633,11 @@ h6 {
   
   .logo img {
     height: 40px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   .badge.promotion {
@@ -653,6 +663,11 @@ h6 {
   
   .logo img {
     height: 37px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   .badge.promotion {
@@ -677,6 +692,11 @@ h6 {
   
   .logo img {
     height: 35px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   .badge.promotion {
@@ -696,6 +716,11 @@ h6 {
   }
   .logo img {
     height: 32px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   .badge.promotion {
@@ -717,6 +742,11 @@ h6 {
   }
   .logo img {
     height: 32px;
+    width:auto !important;
+    display:block !important;   /* avoids baseline jitter */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    backface-visibility:hidden;
   }
   
   .badge.promotion {
